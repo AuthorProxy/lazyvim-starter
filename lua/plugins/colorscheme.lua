@@ -3,8 +3,13 @@ return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
-    priority = 1000, -- ensure it's loaded early
+    priority = 1000,
     opts = {
+      transparent_background = true,
+      float = {
+        transparent = true,
+        solid = true,
+      },
       integrations = {
         aerial = true,
         alpha = true,
